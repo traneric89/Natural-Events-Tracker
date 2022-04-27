@@ -13,7 +13,7 @@ const Map = ({ center, zoom, data }) => {
     zoom: 5,
   };
 
-  const [locationInfo, setLocationInfo] = useState(null);
+  const [locationInfo, setLocationInfo] = useState();
 
   const markers = data.map((event) => {
     if (event.categories[0].id === 8) {

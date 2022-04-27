@@ -1,1 +1,1 @@
-# Natural Events Tracker powered by NASA EONET API
+# Wildfire Tracker powered by NASA EONET API

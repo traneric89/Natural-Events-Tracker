@@ -1,6 +1,7 @@
 import React from "react";
 import Map from "./Components/Map";
 import Loader from "./Components/Loader";
+import Header from "./Components/Header";
 import { useState, useEffect } from "react";
 
 const App = () => {
@@ -17,7 +18,12 @@ const App = () => {
     fetchEvents();
   }, []);
 
-  return <div>{loading ? <Loader /> : <Map data={data} />}</div>;
+  return (
+    <div>
+      <Header />
+      {loading ? <Loader /> : <Map data={data} />}
+    </div>
+  );
 };
 
 export default App;
