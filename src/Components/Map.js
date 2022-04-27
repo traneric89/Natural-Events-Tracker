@@ -30,7 +30,7 @@ const Map = ({ center, zoom, data }) => {
   return (
     <div className="map">
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "AIzaSyDNqZHC1TD2kcPAxZkK-N_xoFAkbXj3z84" }}
+        bootstrapURLKeys={{ key: `${process.env.REACT_APP_NASA_API_KEY}` }}
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
       >
