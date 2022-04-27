@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Natural-Events-Tracker/static/css/main.901da07a.css",
+    "main.js": "/Natural-Events-Tracker/static/js/main.75a25541.js",
+    "static/media/loading-buffering.gif": "/Natural-Events-Tracker/static/media/loading-buffering.c7d9f0819b0870f9ad8e.gif",
+    "index.html": "/Natural-Events-Tracker/index.html",
+    "main.901da07a.css.map": "/Natural-Events-Tracker/static/css/main.901da07a.css.map",
+    "main.75a25541.js.map": "/Natural-Events-Tracker/static/js/main.75a25541.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.901da07a.css",
+    "static/js/main.75a25541.js"
+  ]
+}
